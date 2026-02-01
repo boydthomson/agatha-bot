@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+build/
+dist/
+*.bin
+
+# Secrets - NEVER commit these!
+secrets.yaml
+secrets.h
+.env
+*.key
+*.pem
+
+# ESPHome
+.esphome/
+
+# Arduino
+*.elf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
